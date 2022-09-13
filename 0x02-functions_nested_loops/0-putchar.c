@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
 * main - main block
@@ -15,10 +15,10 @@ int main(void)
 
 	while (print[i] != '\0')
 	{
-		putchar(print[i]);
+		_putchar(print[i]);
 		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
