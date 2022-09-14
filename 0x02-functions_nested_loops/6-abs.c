@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - main block
- * 
- * Description:  compute the absolute value of an integer
- * 
+ * _abs - computes the absolute value of an integer
+ *
+ * @n: integer to be checked
+ *
  * Return: absolute value of @n
  */
 

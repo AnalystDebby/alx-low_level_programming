@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - main block
- * 
- * Description: print +, 0, or - depending on number, along with return
+ * print_sign - prints the sign of a number
+ *
+ * @n: The number to check
+ *
  * Return: 1 if +, 0 if 0, and -1 if -
  */
 

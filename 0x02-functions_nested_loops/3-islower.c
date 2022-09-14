@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * main -  main block
- * 
- * Description: Return 1 if letter is lowercase, 0 if not.
+ * _islower - Description: Return 1 if letter is lowercase, 0 if not.
+ *
  * @c: char type letter
- * 
+ *
  * Return: 1 if lowercase, 0 if not lowercase
  */
 

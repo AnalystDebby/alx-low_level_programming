@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- * min - main block
+ * print_alphabet - prints alphabet in small letters
+ *
  * Description: Print alphabet in lowercase using only `_putchar`
+ *
  * Return: 0
  */
 

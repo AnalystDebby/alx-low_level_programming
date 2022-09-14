@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - main block
- * Description - print the last digit of a number
- * 
+ * print_last_digit - Returns the value of the last digit of n
+ *
+ * @n: the number * main - main block
+ *
  * Return: return value of last digit
  */
 
