@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - print file name follow by a new line
  * @argc: counts the number of command line arguement
