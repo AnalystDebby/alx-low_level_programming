@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
-* print_number - Prints a number
-* @n: The number to print
-*/
+ * * print_number - Prints a number
+ * * @n: The number to print
+ */
 
 void print_number(int n)
 {
@@ -12,12 +12,10 @@ void print_number(int n)
 
 	if (n < 0)
 	{
-		putchar('-');
+		_putchar('-');
 		num = -num;
 	}
-	if (num > 9)
-	{
+	if ((num / 10) > 0)
 		print_number(num / 10);
-	}
-	putchar(num % 10 + '0');
+	_putchar((num % 10) + 48);
 }
