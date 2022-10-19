@@ -1,35 +1,22 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
-<<<<<<< HEAD
-* _puts - prints a string followed by a new line to stdout
-* @str: string
-* Return: void
-=======
- * _puts - prints a string followed by a new line.
- * @str: input string.
- * Return: no return.
+ * _puts - prints a string
+ * @str: string to print
  *
->>>>>>> d32d90d4f6c6cc9813b481c158de0854c068157a
-*/
+ * Description: prints a string
+ * on success: returns no error
+ */
 
 void _puts(char *str)
 {
 	int i = 0;
 
-<<<<<<< HEAD
-	while (str[i] != '\0')
+	while (*(str + i) != '\0')
 	{
+		putchar(*(str + i));
 		i++;
 	}
-	printf(str[i]);
-	printf('\n');
-=======
-	while (str[i] != '\n' && str[i] != '\0')
-	{
-		_putchar(str[i]);
-		i++;
-	}
-	_putchar('\n');
->>>>>>> d32d90d4f6c6cc9813b481c158de0854c068157a
+	putchar(10);
 }
