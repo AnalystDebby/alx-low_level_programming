@@ -33,8 +33,7 @@ int sum_listint(listint_t *head);
  * @n: value to store in node
  * Return: new node or null if failed
  */
-listint_t *insert_nodeint_at_index(listint_t **head,
-				   unsigned int index, int n);
+listint_t *insert_nodeint_at_index(listint_t **head, unsigned int index, int n);
 int delete_nodeint_at_index(listint_t **head, unsigned int index);
 listint_t *reverse_listint(listint_t **head);
 size_t print_listint_safe(const listint_t *head);
